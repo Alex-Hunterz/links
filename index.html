@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Manit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-content">
+      <p class="hero-tag">16 May 2026</p>
+      <h1>Happy Birthday<br><span>Manit</span></h1>
+      <p class="hero-sub">here's to you, bro</p>
+    </div>
+    <div class="scroll-hint">↓ scroll</div>
+  </div>
+
+  <!-- MESSAGES -->
+  <section id="messages">
+    <h2 class="section-title reveal">From the guys</h2>
+    <div class="section-line reveal"></div>
+    <div class="messages-grid" id="messages-grid"></div>
+  </section>
+
+  <!-- PHOTOS -->
+  <section id="photos">
+    <h2 class="section-title reveal">Memories</h2>
+    <div class="section-line reveal"></div>
+    <div class="photo-grid">
+      <img src="media/IMG_20240826_131613.jpg" alt="" onclick="openLightbox(this)">
+      <img src="media/IMG_20241030_112809.jpg" alt="" onclick="openLightbox(this)">
+      <img src="media/IMG_20260423_140053675.jpg" alt="" onclick="openLightbox(this)">
+      <img src="media/IMG_20260423_170825686.jpg" alt="" onclick="openLightbox(this)">
+      <img src="media/IMG_20260502_130543978.jpg" alt="" onclick="openLightbox(this)">
+      <img src="media/IMG_20260502_130613067.jpg" alt="" onclick="openLightbox(this)">
+      <img src="media/WhatsApp_Image_2026-05-15_at_20.47.26.jpeg" alt="" onclick="openLightbox(this)">
+      <img src="media/WhatsApp_Image_2026-05-15_at_20.47.26_1.jpeg" alt="" onclick="openLightbox(this)">
+      <img src="media/WhatsApp_Image_2026-05-15_at_20.47.26_2.jpeg" alt="" onclick="openLightbox(this)">
+      <img src="media/WhatsApp_Image_2026-05-15_at_20.55.58.jpeg" alt="" onclick="openLightbox(this)">
+      <img src="media/WhatsApp_Image_2026-05-15_at_20.55.58_1.jpeg" alt="" onclick="openLightbox(this)">
+      <img src="media/WhatsApp_Image_2026-05-15_at_20.55.58_2.jpeg" alt="" onclick="openLightbox(this)">
+      <img src="media/WhatsApp_Image_2026-05-15_at_20.59.04.jpeg" alt="" onclick="openLightbox(this)">
+      <img src="media/WhatsApp_Image_2026-05-15_at_20.59.43.jpeg" alt="" onclick="openLightbox(this)">
+      <img src="media/WhatsApp_Image_2026-05-15_at_21.03.11.jpeg" alt="" onclick="openLightbox(this)">
+      <img src="media/WhatsApp_Image_2026-05-15_at_21.03.27.jpeg" alt="" onclick="openLightbox(this)">
+      <img src="media/WhatsApp_Image_2026-05-15_at_21.03.53.jpeg" alt="" onclick="openLightbox(this)">
+      <img src="media/WhatsApp_Image_2026-05-15_at_21.03.54.jpeg" alt="" onclick="openLightbox(this)">
+      <img src="media/WhatsApp_Image_2026-05-15_at_21.03.54_1.jpeg" alt="" onclick="openLightbox(this)">
+      <img src="media/WhatsApp_Image_2026-05-15_at_21.03.55.jpeg" alt="" onclick="openLightbox(this)">
+      <img src="media/WhatsApp_Image_2026-05-15_at_21.03.55_1.jpeg" alt="" onclick="openLightbox(this)">
+      <img src="media/WhatsApp_Image_2026-05-15_at_21.03.56.jpeg" alt="" onclick="openLightbox(this)">
+      <img src="media/WhatsApp_Image_2026-05-15_at_21.03.56_1.jpeg" alt="" onclick="openLightbox(this)">
+      <img src="media/WhatsApp_Image_2026-05-15_at_21.06.21.jpeg" alt="" onclick="openLightbox(this)">
+      <img src="media/WhatsApp_Image_2026-05-15_at_21.06.21_1.jpeg" alt="" onclick="openLightbox(this)">
+      <img src="media/WhatsApp_Image_2026-05-15_at_21.06.21_2.jpeg" alt="" onclick="openLightbox(this)">
+      <img src="media/WhatsApp_Image_2026-05-15_at_21.06.21_3.jpeg" alt="" onclick="openLightbox(this)">
+      <img src="media/WhatsApp_Image_2026-05-15_at_21.06.21_4.jpeg" alt="" onclick="openLightbox(this)">
+      <img src="media/WhatsApp_Image_2026-05-15_at_21.06.21_5.jpeg" alt="" onclick="openLightbox(this)">
+      <img src="media/WhatsApp_Image_2026-05-15_at_21.06.21_6.jpeg" alt="" onclick="openLightbox(this)">
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close" onclick="closeLightbox()">×</button>
+    <img id="lightbox-img" src="" alt="">
+  </div>
+
+  <!-- VIDEOS -->
+  <section id="videos">
+    <h2 class="section-title reveal">Moments</h2>
+    <div class="section-line reveal"></div>
+    <div class="video-grid">
+      <video controls preload="metadata"><source src="media/20260306_1547461.mp4" type="video/mp4"></video>
+      <video controls preload="metadata"><source src="media/20260306_1553351.mp4" type="video/mp4"></video>
+      <video controls preload="metadata"><source src="media/20260306_1553352.mp4" type="video/mp4"></video>
+      <video controls preload="metadata"><source src="media/20260306_1610521.mp4" type="video/mp4"></video>
+      <video controls preload="metadata"><source src="media/VID_20260423_140332778.mp4" type="video/mp4"></video>
+      <video controls preload="metadata"><source src="media/WhatsApp_Video_2026-05-15_at_21.03.25.mp4" type="video/mp4"></video>
+      <video controls preload="metadata"><source src="media/WhatsApp_Video_2026-05-15_at_21.03.27.mp4" type="video/mp4"></video>
+      <video controls preload="metadata"><source src="media/WhatsApp_Video_2026-05-15_at_21.03.52.mp4" type="video/mp4"></video>
+      <video controls preload="metadata"><source src="media/WhatsApp_Video_2026-05-15_at_21.03.52_1.mp4" type="video/mp4"></video>
+      <video controls preload="metadata"><source src="media/WhatsApp_Video_2026-05-15_at_21.03.53.mp4" type="video/mp4"></video>
+      <video controls preload="metadata"><source src="media/WhatsApp_Video_2026-05-15_at_21.03.53_1.mp4" type="video/mp4"></video>
+      <video controls preload="metadata"><source src="media/WhatsApp_Video_2026-05-15_at_21.03.54.mp4" type="video/mp4"></video>
+      <video controls preload="metadata"><source src="media/WhatsApp_Video_2026-05-15_at_21.03.55.mp4" type="video/mp4"></video>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>made with love for <span>Manit</span> &nbsp;·&nbsp; 2026</p>
+  </footer>
+
+  <script src="messages.js"></script>
+  <script>
+    // render messages
+    const grid = document.getElementById('messages-grid');
+    messages.forEach(m => {
+      grid.innerHTML += `<div class="message-card reveal">
+        <p class="message-text">${m.text}</p>
+        <p class="message-author">${m.name}</p>
+      </div>`;
+    });
+
+    // lightbox
+    function openLightbox(img) {
+      document.getElementById('lightbox-img').src = img.src;
+      document.getElementById('lightbox').classList.add('open');
+    }
+    function closeLightbox() {
+      document.getElementById('lightbox').classList.remove('open');
+    }
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+
+    // scroll reveal
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>
