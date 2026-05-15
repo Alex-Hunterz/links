@@ -1,5 +1,3 @@
 const messages = [
-  { name: "Name", text: "message goes here — a memory, an inside joke, whatever feels right." },
-  { name: "Name", text: "message goes here." },
-  { name: "Name", text: "message goes here." },
+  { name: "Manit", text: "happy birthday brother. may you get aces not only in valo but in life too. have a great one." },
 ];
